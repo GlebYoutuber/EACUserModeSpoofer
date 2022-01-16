@@ -21,7 +21,7 @@ namespace EACSpoofer.MacAddressSpoof
             {
                 ZipFile.ExtractToDirectory($@"C:\Users\{Environment.UserName}\Downloads\TMACv6.0.7_Setup.zip", $@"C:\Users\{Environment.UserName}\Downloads");
                 Process.Start($@"C:\Users\{Environment.UserName}\Downloads\TMACv6.0.7_Setup.exe");
-                MessageBox.Show("Download TMAC and Copy to your Windows folder to Spoof your MAC Address");
+                MessageBox.Show("Download TMAC and Copy in your Windows folder to Spoof your MAC Address");
             }
             else
             {
