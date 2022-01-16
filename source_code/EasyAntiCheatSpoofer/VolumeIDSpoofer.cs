@@ -27,7 +27,7 @@ namespace EACSpoofer.VolumeIDSpoofer
 
             for (int ctr = 0; ctr < drives.Length; ctr++)
             {
-                //Start VolumeID.exe to Spoof your ID Disks to avoid EAC BAN for FOREVER
+                //Start VolumeID.exe(Spoof your ID Disks to avoid EAC BAN for FOREVER)
                 Process process = new Process();
                 process.StartInfo.FileName = "cmd.exe";
                 process.StartInfo.CreateNoWindow = true;
