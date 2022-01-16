@@ -1,1 +1,1 @@
-[pic1](imgs/EAC.png)
+[pic1](imgs\EAC.png)
